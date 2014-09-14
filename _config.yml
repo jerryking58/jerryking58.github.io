@@ -2,10 +2,10 @@ safe:        false
 baseurl:     /
 url: http://localhost:4000
 
-name: Zeno Rocha
-description: A front-end engineer who lives in Rio and works for an awesome company based in LA :)
-url: http://zenorocha.com
-domain: zenorocha.com
+name: Jerry King
+description: A graduate student from EECS in Peking University, who is trying to be a good PORGRAMMER!
+url: http://jerryking58.github.io
+domain: jerryking58.github.io
 commentlinks: true
 twitter-username: zenorocha
 feedburnerurl: http://feeds.feedburner.com/zenorocha
@@ -18,7 +18,7 @@ paginate_path: 'blog/page:num'
 
 future:      true
 lsi:         false
-pygments:    false
+highlighter:    pygments
 markdown:    maruku
 permalink:   /:title/
 paginate: 5
