@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects / Full List
+title: Experiences
 class: all-projects
 description: List of all projects
 ---
 
-Here you can find all the projects that I did.
+Here you can find all my research, intern and working experiences.
 
 # ~ 2014
 <hr />

@@ -60,7 +60,11 @@
     <span class="newer">Previous</span>
     {% endif %}
 
-    <span>Página {{paginator.page}} de {{paginator.total_pages}}</span>
+    {% if paginator.total_pages != 0 %}
+    <span>Page {{paginator.page}} of {{paginator.total_pages}}</span>
+    {% else %}
+    <span>Page 0 of 0</span>
+    {% endif %}
     {% if paginator.next_page %}
     <a class="older" href="/blog/page{{paginator.next_page}}">Next</a>
     {% else %}
