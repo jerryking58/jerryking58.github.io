@@ -9,7 +9,7 @@ domain: jerryking58.github.io
 commentlinks: true
 twitter-username: zenorocha
 feedburnerurl: http://feeds.feedburner.com/zenorocha
-google-analytics-tracking-id: UA-4114546-2
+google-analytics-tracking-id: UA-56123115-1
 
 source:      .
 destination: ./_site
