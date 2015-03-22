@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://zenorocha.com/blog</id>
-  <title>Blog - Zeno Rocha</title>
+  <title>Blog - Jerry King</title>
   <icon>http://zenorocha.com/favicon.ico</icon>
   <link href="http://zenorocha.com/feed/index.xml" rel="self" />
   <link href="http://zenorocha.com/blog" />
@@ -16,8 +16,8 @@ layout: nil
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <link href="http://zenorocha.com{{ post.url }}" />
     <author>
-      <name>Zeno Rocha</name>
-      <uri>http://zenorocha.com/</uri>
+      <name>Jerry King</name>
+      <uri>http://jerryking58.github.io/</uri>
     </author>
     <content type="html">
       {{ post.content | replace: "src='/assets/", "src='http://zenorocha.com/assets/" | xml_escape }}
