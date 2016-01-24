@@ -1,17 +1,14 @@
-{% include header.html %}
+---
+layout: default
+---
+<article class="post">
 
-  {% include nav.html %}
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
 
-  <div class="container">
-
-    <div id="content">
-
-    {% if page.title %}
-    <h1 class="posttitle">{{ page.title }}</h1>
-    {% endif %}
-
+  <div class="post-content">
     {{ content }}
-    </div>
   </div>
 
-{% include footer.html %}
+</article>
